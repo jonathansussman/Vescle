@@ -19,7 +19,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        /*
+        let logged_in = UserDefaults.standard.bool(forKey: "logged_in");
+        
+        if (!logged_in) {
+            self.performSegue(withIdentifier: "toLogin", sender: self);
+        }
+        */
+        self.performSegue(withIdentifier: "toLogin", sender: self);
+        
+    }
+    /*
+    @IBAction func logout(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "logged_in");
+        UserDefaults.standard.synchronize();
+        
+        self.performSegue(withIdentifier: "toLogin", sender: self)
+        
+    }
+    */
 }
 

@@ -14,6 +14,8 @@
 		F98262001E59F5EA0040465E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98261FE1E59F5EA0040465E /* LaunchScreen.storyboard */; };
 		F982620B1E59F5EA0040465E /* VescleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F982620A1E59F5EA0040465E /* VescleTests.swift */; };
 		F98262161E59F5EA0040465E /* VescleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98262151E59F5EA0040465E /* VescleUITests.swift */; };
+		F98262241E5A002C0040465E /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98262231E5A002C0040465E /* RegisterPageViewController.swift */; };
+		F98262261E5A08810040465E /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98262251E5A08810040465E /* LoginPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F98262111E59F5EA0040465E /* VescleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VescleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98262151E59F5EA0040465E /* VescleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VescleUITests.swift; sourceTree = "<group>"; };
 		F98262171E59F5EA0040465E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98262231E5A002C0040465E /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		F98262251E5A08810040465E /* LoginPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F98261FC1E59F5EA0040465E /* Assets.xcassets */,
 				F98261FE1E59F5EA0040465E /* LaunchScreen.storyboard */,
 				F98262011E59F5EA0040465E /* Info.plist */,
+				F98262231E5A002C0040465E /* RegisterPageViewController.swift */,
+				F98262251E5A08810040465E /* LoginPageViewController.swift */,
 			);
 			path = Vescle;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98261F81E59F5EA0040465E /* ViewController.swift in Sources */,
+				F98262261E5A08810040465E /* LoginPageViewController.swift in Sources */,
 				F98261F61E59F5EA0040465E /* AppDelegate.swift in Sources */,
+				F98262241E5A002C0040465E /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				F982621C1E59F5EA0040465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F982621D1E59F5EA0040465E /* Build configuration list for PBXNativeTarget "VescleTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				F982621F1E59F5EA0040465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F98262201E59F5EA0040465E /* Build configuration list for PBXNativeTarget "VescleUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				F98262221E59F5EA0040465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
