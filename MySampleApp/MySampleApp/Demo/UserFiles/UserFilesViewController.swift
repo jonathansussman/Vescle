@@ -232,7 +232,7 @@ class UserFilesViewController: UITableViewController {
         
         // If the content hasn't been downloaded, and it's larger than the limit of the cache,
         // we don't allow downloading the contentn.
-        if content.knownRemoteByteCount + 4 * 1024 < self.manager.maxCacheSize {
+        if Int(content.knownRemoteByteCount) + 4 * 1024 < Int(self.manager.maxCacheSize) {
             // 4 KB is for local metadata.
             var title = "Download"
             
