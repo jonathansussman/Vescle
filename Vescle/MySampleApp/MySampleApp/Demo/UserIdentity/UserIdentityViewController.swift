@@ -19,7 +19,6 @@ class UserIdentityViewController: UIViewController {
     
     @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var userName: UILabel!
-    @IBOutlet weak var userID: UILabel!
     
     // MARK: - View lifecycle
     
@@ -34,7 +33,6 @@ class UserIdentityViewController: UIViewController {
             userName.text = NSLocalizedString("Guest User", comment: "Placeholder text for the guest user.")
         }
         
-        userID.text = identityManager.identityId
         if let imageURL = identityManager.imageURL {
             let imageData = try! Data(contentsOf: imageURL)
             if let profileImage = UIImage(data: imageData) {

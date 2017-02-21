@@ -37,18 +37,18 @@ class MainViewController: UITableViewController {
             presentSignInViewController()
         
         var demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Sign-in",
+            name: NSLocalizedString("My Profile",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Enable user login with popular 3rd party providers.",
+            detail: NSLocalizedString("add or edit user profile and information",
                 comment: "Description for demo menu option."),
             icon: "UserIdentityIcon", storyboard: "UserIdentity")
         
         demoFeatures.append(demoFeature)
         
         demoFeature = DemoFeature.init(
-            name: NSLocalizedString("User Data Storage",
+            name: NSLocalizedString("My Vescles",
                 comment: "Label for demo menu option."),
-            detail: NSLocalizedString("Save user files in the cloud and sync user data in key/value pairs.",
+            detail: NSLocalizedString("look at all of your current vescles",
             comment: "Description for demo menu option."),
             icon: "UserFilesIcon", storyboard: "UserDataStorage")
         
